@@ -1,0 +1,84 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+    {
+        "key": "cmd+r",
+        "command": "extension.coq.interpretToPoint",
+        "when": "resourceScheme == 'coq-view'"
+    },
+    {
+        "key": "ctrl+cmd+right",
+        "command": "-extension.coq.interpretToPoint",
+        "when": "resourceScheme == 'coq-view'"
+    },
+    {
+        "key": "cmd+r",
+        "command": "extension.coq.interpretToPoint",
+        "when": "editorTextFocus && editorLangId == 'coq'"
+    },
+    {
+        "key": "ctrl+cmd+right",
+        "command": "-extension.coq.interpretToPoint",
+        "when": "editorTextFocus && editorLangId == 'coq'"
+    },
+    {
+        "key": "ctrl+\\",
+        "command": "editor.action.jumpToBracket",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+\\",
+        "command": "editor.action.selectToBracket",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+up",
+        "command": "editor.action.insertCursorAbove",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+cmd+up",
+        "command": "-editor.action.insertCursorAbove",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+down",
+        "command": "editor.action.insertCursorBelow",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+cmd+down",
+        "command": "-editor.action.insertCursorBelow",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+left",
+        "command": "editor.action.moveCarretLeftAction"
+    },
+    {
+        "key": "ctrl+shift+right",
+        "command": "editor.action.moveCarretRightAction"
+    },
+    {
+        "key": "shift+cmd+l",
+        "command": "extension.splitIntoLines",
+        "when": "editorFocus"
+    },
+    {
+        "key": "ctrl+shift+g",
+        "command": "editor.action.previousMatchFindAction",
+        "when": "editorFocus"
+    },
+    {
+        "key": "shift+cmd+g",
+        "command": "-editor.action.previousMatchFindAction",
+        "when": "editorFocus"
+    },
+    {
+        "key": "shift+cmd+g",
+        "command": "workbench.view.scm"
+    },
+    {
+        "key": "ctrl+shift+g",
+        "command": "-workbench.view.scm"
+    },
+]
